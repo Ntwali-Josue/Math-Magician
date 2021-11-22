@@ -1,76 +1,35 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Math Magician
 
-> One paragraph statement about the project.
+> This project is a webapp which helps the user to do basic calculation using math magician calculator and get a random joke. 
 
-![screenshot](./app_screenshot.png)
+<!-- ![screenshot](https://user-images.githubusercontent.com/58233753/133434087-cb4dcf0b-3c51-4cf9-85e5-f5eb74d2dde4.png) -->
 
-Additional description about the project and its features.
+## Built With 
 
-## Built With
+- HTML, JAVASCRIPT, CSS
+- React
+- Babel, Linters, Git
 
-- Major languages
-- Frameworks
-- Technologies used
+## Live Demo 
 
-## Live Demo
+<!-- [Live Demo Link](https://ntwali-josue.github.io/maths-magician) -->
 
-[Live Demo Link](https://livedemo.com)
-
-
-## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
+## Getting Started 
+<!-- **To get started with the project, you can use the [Live Demo Link](https://ntwali-josue.github.io/maths-magician/) to access the website and interact with the features.** -->
 
 To get a local copy up and running follow these simple example steps.
 
-### Prerequisites
+### Prerequisites 📌
+- `Node.js` installed.
+- `Git` installed.
 
-### Setup
+### Setup 🔂 
+- Clone this repository by running `git clone https://github.com/Ntwali-Josue/Math-Magician.git` in your terminal.
 
-### Install
+### Install ⚙️
+- Run `npm install` in your terminal to install the dependencies.
 
-### Usage
-
-### Run tests
-
-### Deployment
-
-
-
-## Authors
-
-👤 **Author1**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-## 🤝 Contributing
-
-Contributions, issues, and feature requests are welcome!
-
-Feel free to check the [issues page](../../issues/).
-
-## Show your support
-
-Give a ⭐️ if you like this project!
-
-## Acknowledgments
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
-
-## 📝 License
-
-This project is [MIT](./MIT.md) licensed.
+### Usage 💻
+- Run `npm start` for webpack to run and open your application in the browser.
