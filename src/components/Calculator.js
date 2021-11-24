@@ -19,6 +19,10 @@ class Calculator extends React.Component {
     this.setState({ digitObj : newObj });
   }
 
+  returnSection = () => {
+    const { digitObj } = this.state;
+  }
+
   render() {
     return (
       <section className="calculator">
