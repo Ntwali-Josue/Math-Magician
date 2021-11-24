@@ -1,28 +1,16 @@
 import React from 'react';
 import './Calculator.css';
-import calculate from '../logic/calculate';
 
 class Calculator extends React.Component {
   constructor(props) {
     super(props);
-    this.state = {
-      digitObj: {
-        total: null,
-        next: null,
-        operation: null,
-      },
-    };
+
     this.calculator = this.calculator.bind(this);
     this.returnSection = this.returnSection.bind(this);
   }
 
-  calculator = (obj, button) => {
-    const newObj = calculate(obj, button);
-    this.setState({ digitObj: newObj });
-  }
-
   returnSection = () => {
-    const { digitObj } = this.state;
+    const { digitObj } = this.props;
     const { total, next, operation } = digitObj;
 
     if (total === null && next === null) {
@@ -72,5 +60,6 @@ class Calculator extends React.Component {
     );
   }
 }
+
 
 export default Calculator;
