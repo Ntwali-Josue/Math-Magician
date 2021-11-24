@@ -12,14 +12,17 @@ class Calculator extends React.Component {
         operation: null,
       },
     };
+    this.calculator = this.calculator.bind(this);
+    this.returnSection = this.returnSection.bind(this);
   }
 
-  handleCalculator = (obj, button) => {
+  calculator = (obj, button) => {
     const newObj = calculate(obj, button);
     this.setState({ digitObj: newObj });
   }
 
   returnSection = () => {
+    const { digitObj } = this.state;
     const { total, next, operation } = digitObj;
 
     if (total === null && next === null) {
@@ -41,9 +44,9 @@ class Calculator extends React.Component {
     return (
       <section className="calculator">
         <h1>Math Magician</h1>
-        <div className="return-section">0</div>
+        <div className="return-section">{this.returnSection()}</div>
         <div className="digits-elts">
-          <button type="button" className="button-section">AC</button>
+          <button type="button" className="button-section">{this.handleCalculator(t, 'AC')}</button>
           <button type="button" className="button-section">+/-</button>
           <button type="button" className="button-section">%</button>
           <button type="button" className="button-section operator">+</button>
