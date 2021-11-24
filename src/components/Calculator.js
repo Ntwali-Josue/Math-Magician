@@ -13,7 +13,6 @@ class Calculator extends React.Component {
   calculator = (obj, button) => {
     const { updateState } = this.props;
     const newObj = calculate(obj, button);
-    // this.digitObj = newObj;
     updateState(newObj);
   }
 
