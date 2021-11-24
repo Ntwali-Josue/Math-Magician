@@ -28,7 +28,7 @@ class Calculator extends React.Component {
       return next;
     }
     if (total !== null && next !== null) {
-      if (operation !== null && operation !== null) {
+      if (operation !== null && operation !== undefined) {
         return `${total} ${operation} ${next}`;
       }
       return total;
