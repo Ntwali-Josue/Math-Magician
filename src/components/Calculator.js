@@ -1,13 +1,20 @@
 import React from 'react';
+import PropTypes from 'prop-types';
+import calculate from '../logic/calculate';
 import './Calculator.css';
 
 class Calculator extends React.Component {
   constructor(props) {
     super(props);
-
     this.calculator = this.calculator.bind(this);
     this.returnSection = this.returnSection.bind(this);
   }
+
+  calculator = (obj, button) => {
+    const newObj = calculate(obj, button);
+    this.setState({ digitObj: newObj });
+  }
+
 
   returnSection = () => {
     const { digitObj } = this.props;
@@ -61,5 +68,8 @@ class Calculator extends React.Component {
   }
 }
 
+Calculator.propTypes = {
+  digitObj: PropTypes.object.isRequired,
+};
 
 export default Calculator;
