@@ -11,10 +11,10 @@ class Calculator extends React.Component {
   }
 
   calculator = (obj, button) => {
+    const { updateState } = this.props;
     const newObj = calculate(obj, button);
-    this.setState({ digitObj: newObj });
+    updateState(newObj);
   }
-
 
   returnSection = () => {
     const { digitObj } = this.props;
@@ -41,7 +41,7 @@ class Calculator extends React.Component {
         <h1>Math Magician</h1>
         <div className="return-section">{this.returnSection()}</div>
         <div className="digits-elts">
-          <button type="button" className="button-section">{this.handleCalculator(t, 'AC')}</button>
+          <button type="button" className="button-section">AC</button>
           <button type="button" className="button-section">+/-</button>
           <button type="button" className="button-section">%</button>
           <button type="button" className="button-section operator">+</button>
@@ -69,6 +69,7 @@ class Calculator extends React.Component {
 }
 
 Calculator.propTypes = {
+  updateState: PropTypes.func.isRequired,
   digitObj: PropTypes.object.isRequired,
 };
 
