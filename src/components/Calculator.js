@@ -1,10 +1,22 @@
 import React from 'react';
 import './Calculator.css';
+import calculate from '../logic/calculate';
 
 class Calculator extends React.Component {
   constructor(props) {
     super(props);
-    this.state = {};
+    this.state = {
+      digitObj: {
+        total: null,
+        next: null,
+        operation: null,
+      },
+    };
+  }
+
+  handleCalculator = (obj, button) => {
+    const newObj = calculate(obj, button);
+    this.setState({ digitObj : newObj });
   }
 
   render() {
