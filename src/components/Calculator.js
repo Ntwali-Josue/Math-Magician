@@ -45,7 +45,7 @@ class Calculator extends React.Component {
           <button type="button" className="button-section" value="AC" onClick={() => { this.calculator(digitObj, 'AC'); }}>AC</button>
           <button type="button" className="button-section" value="+/-" onClick={() => { this.calculator(digitObj, '+/-'); }}>+/-</button>
           <button type="button" className="button-section" value="%" onClick={() => { this.calculator(digitObj, '%'); }}>%</button>
-          <button type="button" className="button-section operator" value="+" onClick={() => { this.calculator(digitObj, '+'); }}>+</button>
+          <button type="button" className="button-section operator" value="÷" onClick={() => { this.calculator(digitObj, '÷'); }}>÷</button>
           <button type="button" className="button-section" value="7" onClick={() => { this.calculator(digitObj, '7'); }}>7</button>
           <button type="button" className="button-section" value="8" onClick={() => { this.calculator(digitObj, '8'); }}>8</button>
           <button type="button" className="button-section" value="9" onClick={() => { this.calculator(digitObj, '9'); }}>9</button>
