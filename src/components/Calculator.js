@@ -16,11 +16,25 @@ class Calculator extends React.Component {
 
   handleCalculator = (obj, button) => {
     const newObj = calculate(obj, button);
-    this.setState({ digitObj : newObj });
+    this.setState({ digitObj: newObj });
   }
 
   returnSection = () => {
-    const { digitObj } = this.state;
+    const { total, next, operation } = digitObj;
+
+    if (total === null && next === null) {
+      return 0;
+    }
+    if (next !== null && total === null) {
+      return next;
+    }
+    if (total !== null && next !== null) {
+      if (operation !== null && operation !== null) {
+        return `${total} ${operation} ${next}`;
+      }
+      return total;
+    }
+    return total;
   }
 
   render() {
