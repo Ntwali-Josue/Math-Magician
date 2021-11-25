@@ -7,6 +7,5 @@ const App = () => (
     <Calculator />
   </div>
 );
-// }
 
 export default App;
