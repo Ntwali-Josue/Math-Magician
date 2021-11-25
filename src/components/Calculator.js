@@ -1,15 +1,8 @@
 import React, { useState } from 'react';
-// import PropTypes from 'prop-types';
 import calculate from '../logic/calculate';
 import './Calculator.css';
 
 const Calculator = () => {
-  // constructor(props) {
-  //   super(props);
-  //   calculator = calculator.bind(this);
-  //   this.returnSection = this.returnSection.bind(this);
-  // }
-
   const [digitObj, setDigitObj] = useState({
     total: 0,
     next: 0,
@@ -21,13 +14,11 @@ const Calculator = () => {
   };
 
   const calculator = (obj, button) => {
-    // const { updateState } = this.props;
     const newObj = calculate(obj, button);
     updateState(newObj);
   };
 
   const returnSection = () => {
-    // const { digitObj } = this.props;
     const { total, next, operation } = digitObj;
 
     if (total === null && next === null) {
@@ -45,8 +36,6 @@ const Calculator = () => {
     return total;
   };
 
-  // render() {
-  //   const { digitObj } = this.props;
   return (
     <section className="calculator">
       <h1>Math Magician</h1>
@@ -76,13 +65,6 @@ const Calculator = () => {
       </span>
     </section>
   );
-  // }
 };
-
-// Calculator.propTypes = {
-//   updateState: PropTypes.func.isRequired,
-//   // eslint-disable-next-line react/forbid-prop-types
-//   digitObj: PropTypes.object.isRequired,
-// };
 
 export default Calculator;
