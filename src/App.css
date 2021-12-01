@@ -33,6 +33,11 @@
   border-right: 1px solid #f8f8fa;
 }
 
+.no-match {
+  font-size: 30px;
+  text-align: center;
+}
+
 .quotes {
   font-size: 20px;
   color: #fff;
