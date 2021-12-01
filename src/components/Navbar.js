@@ -5,17 +5,17 @@ const Links = [
   {
     id: 1,
     name: 'Home',
-    path: '/',
+    path: '/Math-Magician',
   },
   {
     id: 2,
     name: 'Calculator',
-    path: '/calculator',
+    path: '/Math-Magician/calculator',
   },
   {
     id: 3,
     name: 'Qoute',
-    path: '/quote',
+    path: '/Math-Magician/quote',
   },
 ];
 
