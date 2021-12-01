@@ -11,13 +11,13 @@ const App = () => (
   <Router>
     <Navbar />
     <Switch>
-      <Route exact path="/">
+      <Route exact path="/Math-Magician">
         <Home />
       </Route>
-      <Route path="/calculator">
+      <Route path="/Math-Magician/calculator">
         <Calculator />
       </Route>
-      <Route path="/quote">
+      <Route path="/Math-Magician/quote">
         <Quote />
       </Route>
       <Route path="*">
