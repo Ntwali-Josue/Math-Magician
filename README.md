@@ -2,9 +2,10 @@
 
 # Math Magician
 
-> This project is a webapp which helps the user to do basic calculation using math magician calculator and get a random joke. 
+> This project is a webapp which helps the user to do basic calculation using math magician calculator and get a random joke.
 
-<!-- ![screenshot](https://user-images.githubusercontent.com/58233753/133434087-cb4dcf0b-3c51-4cf9-85e5-f5eb74d2dde4.png) -->
+
+![screenshot](https://user-images.githubusercontent.com/58233753/144215349-c8e054f6-db1f-49a2-80f3-ce302d2aec13.png)
 
 ## Built With 
 
@@ -14,10 +15,10 @@
 
 ## Live Demo 
 
-<!-- [Live Demo Link](https://ntwali-josue.github.io/maths-magician) -->
+[Live Demo Link](https://ntwali-josue.github.io/Math-Magician/)
 
 ## Getting Started 
-<!-- **To get started with the project, you can use the [Live Demo Link](https://ntwali-josue.github.io/maths-magician/) to access the website and interact with the features.** -->
+**To get started with the project, you can use the [Live Demo Link](https://ntwali-josue.github.io/Math-Magician/) to access the website and interact with the features.**
 
 To get a local copy up and running follow these simple example steps.
 
