@@ -28,9 +28,10 @@ To get a local copy up and running follow these simple example steps.
 
 ### Setup 🔂 
 - Clone this repository by running `git clone https://github.com/Ntwali-Josue/Math-Magician.git` in your terminal.
-
+- Change directory to the cloned repository by running `cd Math-Magician`.
 ### Install ⚙️
 - Run `npm install` in your terminal to install the dependencies.
-
-### Usage 💻
+- ### Usage 💻
 - Run `npm start` for webpack to run and open your application in the browser.
+### Testing 🔎
+- Run `npm test` to run the tests.
