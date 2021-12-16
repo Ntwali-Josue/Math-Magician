@@ -1,3 +1,48 @@
 .App {
   text-align: center;
 }
+
+.welcome {
+  font-size: 20px;
+  color: #fff;
+  position: absolute;
+  padding: 0 30px;
+}
+
+.welcome h1 {
+  text-align: center;
+}
+
+#particles-js {
+  height: 100vh;
+}
+
+.nav {
+  display: flex;
+  color: #fff;
+  justify-content: space-between;
+  padding: 0 20px;
+  border-bottom: 1px solid #e2e2e2;
+}
+
+.links {
+  color: #fff;
+  padding: 0 10px;
+  font-size: 24px;
+  text-decoration: none;
+  border-right: 1px solid #f8f8fa;
+}
+
+.no-match {
+  font-size: 30px;
+  text-align: center;
+}
+
+.quotes {
+  font-size: 20px;
+  color: #fff;
+  position: absolute;
+  padding: 100px 0;
+  margin: auto 20%;
+  text-align: center;
+}

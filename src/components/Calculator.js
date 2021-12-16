@@ -62,16 +62,18 @@ const Calculator = () => {
 
   return (
     <section className="calculator">
-      <h1>Math Magician</h1>
-      <div className="return-section">{returnSection()}</div>
-      <div className="digits-elts">
-        {buttons}
+      <h1>Let&apos;s do some math!</h1>
+      <div className="calculator-section">
+        <div className="return-section">{returnSection()}</div>
+        <div className="digits-elts">
+          {buttons}
+        </div>
+        <span className="end">
+          <button type="button" className="button-section" value="0" onClick={() => { calculator(digitObj, '0'); }}>0</button>
+          <button type="button" className="button-section" value="." onClick={() => { calculator(digitObj, '.'); }}>.</button>
+          <button type="button" className="button-section operator" value="=" onClick={() => { calculator(digitObj, '='); }}>=</button>
+        </span>
       </div>
-      <span className="end">
-        <button type="button" className="button-section" value="0" onClick={() => { calculator(digitObj, '0'); }}>0</button>
-        <button type="button" className="button-section" value="." onClick={() => { calculator(digitObj, '.'); }}>.</button>
-        <button type="button" className="button-section operator" value="=" onClick={() => { calculator(digitObj, '='); }}>=</button>
-      </span>
     </section>
   );
 };
