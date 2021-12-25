@@ -5,7 +5,7 @@
 > This project is a webapp which helps the user to do basic calculation using math magician calculator and get a random joke.
 
 
-![screenshot](https://user-images.githubusercontent.com/58233753/144215349-c8e054f6-db1f-49a2-80f3-ce302d2aec13.png)
+![image](https://user-images.githubusercontent.com/58233753/147383571-67b2db39-839f-4723-a444-ba21f9609a33.png)
 
 ## Built With 
 
